@@ -11,9 +11,10 @@ services:
         reservations:
           devices:
             - driver: nvidia
-              count: 1
+              count: all
               capabilities: [gpu]
-    entrypoint: ["jupyter", "lab", "--ip=0.0.0.0", "--allow-root", "--no-browser"]
+    # entrypoint: ["jupyter", "lab", "--ip=0.0.0.0", "--allow-root", "--no-browser"]
+    entrypoint: ["jupyter", "server", "--ip=0.0.0.0", "--allow-root", "--no-browser"]
     networks:
       - jupiter-projet-leyenda-network
 networks:
