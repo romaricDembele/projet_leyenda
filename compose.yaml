@@ -17,6 +17,7 @@ services:
     entrypoint: ["jupyter", "server", "--ip=0.0.0.0", "--allow-root", "--no-browser"]
     networks:
       - jupiter-projet-leyenda-network
+    cpuset: '0-6'
 networks:
   jupiter-projet-leyenda-network:
     driver: bridge
