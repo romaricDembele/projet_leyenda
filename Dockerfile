@@ -2,7 +2,7 @@
 
 # FROM tensorflow/tensorflow:latest-gpu
 
-FROM tensorflow/tensorflow:latest-gpu-jupyter
+FROM tensorflow/tensorflow:1.14.0-gpu-jupyter
 
 WORKDIR /projet_leyenda
 
