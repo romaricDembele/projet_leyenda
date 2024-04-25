@@ -1,6 +1,6 @@
 # jupyter
 # numpy
-# pandas
+pandas
 # tensorflow
 scikit-learn
 matplotlib
@@ -9,3 +9,5 @@ wordcloud
 # jupyterlab
 tensorflow-datasets
 keras-tuner
+rouge
+cider
