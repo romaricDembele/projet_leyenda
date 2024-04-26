@@ -9,3 +9,13 @@ Dataset Livrable 2.zip
 dataset_livrable_2
 dataset_livrable_3
 autoencoder_tuning/
+capioner_decoder
+capioner_encoder
+denoiser/
+classifier/
+capioner_decoder.zip
+capioner_encoder.zip
+capioner_decoder.keras
+capioner_encoder.keras
+classifier.zip
+denoised_images
