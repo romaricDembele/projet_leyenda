@@ -19,3 +19,10 @@ capioner_decoder.keras
 capioner_encoder.keras
 classifier.zip
 denoised_images
+
+dataset_livrable_1.zip
+checkpoints/
+train2014
+texte.ipynb
+checkpoints
+annotations
